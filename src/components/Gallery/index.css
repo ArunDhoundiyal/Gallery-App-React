@@ -1,0 +1,39 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+.image-text-container {
+  align-self: flex-start;
+}
+.full-size-image {
+  height: 400px;
+  width: 100%;
+}
+.heading {
+  font-family: roboto;
+  font-size: 25px;
+  color: #1e293b;
+}
+.paragraph {
+  font-family: roboto;
+  color: #64748b;
+}
+
+.image-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 48px;
+}
